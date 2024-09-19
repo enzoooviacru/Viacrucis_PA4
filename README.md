@@ -21,7 +21,7 @@ ece = pd.read_excel("board2.xlsx")
 ece
 ```
 ## Output
-<img width="231" alt="PA4 LOAD" src="https://github.com/user-attachments/assets/f3e5fbc4-f148-4b28-99fb-b6081b2646aa">
+<img width="275" alt="PA4 LOAD" src="https://github.com/user-attachments/assets/f3e5fbc4-f148-4b28-99fb-b6081b2646aa">
 
 # Problem 1 
 #### For the first problem, filter the dataframe by its rows and columns based on the given limitations of the problem
@@ -36,7 +36,7 @@ Instru = ece[(ece['Track']=='Instrumentation') & (ece['Hometown']=='Luzon') & (e
 Instru[['Name', 'GEAS', 'Electronics']]
 ```
 ## Output
-<img width="129" alt="PA4 PROBLEM1 PART1" src="https://github.com/user-attachments/assets/01986c9e-2bf0-493d-a51a-03ac70d9659d">
+<img width="225" alt="PA4 PROBLEM1 PART1" src="https://github.com/user-attachments/assets/01986c9e-2bf0-493d-a51a-03ac70d9659d">
 
 #### The second part limits the dataframe to rows and columns which have students who have their hometown in Mindanao, gender female, and average score of >= 55
 ## Code
@@ -51,7 +51,7 @@ Mindy = ece[(ece['Hometown']=='Mindanao') & (ece['Gender']=='Female') & (ece['Av
 Mindy[['Name', 'Track', 'Electronics', 'Average']]
 ```
 ## Output
-<img width="200" alt="PA4 PROBLEM1 PART2" src="https://github.com/user-attachments/assets/99403781-24f4-4ec4-8956-0fb98a32c2af">
+<img width="225" alt="PA4 PROBLEM1 PART2" src="https://github.com/user-attachments/assets/99403781-24f4-4ec4-8956-0fb98a32c2af">
 
 # Problem 2
 #### For problem 2, using the Matplot library, display in bar graphs how the different features contribute to the students average score.

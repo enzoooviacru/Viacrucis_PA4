@@ -7,7 +7,7 @@
 #### Import pandas as pd
 #### Import matplotlib.pyplot as plt
 #### Import seaborn as sns
-```
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -15,7 +15,7 @@ import seaborn as sns
 
 ## Load "board2.xlsx" excel file
 #### Use `pd.read_excel()` function to load the excel file
-```
+```python
 #Store the dataframe into a variable
 ece = pd.read_excel("board2.xlsx")
 ece
@@ -36,7 +36,7 @@ Instru = ece[(ece['Track']=='Instrumentation') & (ece['Hometown']=='Luzon') & (e
 Instru[['Name', 'GEAS', 'Electronics']]
 ```
 ## Output
-<img width="300" alt="PA4 PROBLEM1 PART1" src="https://github.com/user-attachments/assets/01986c9e-2bf0-493d-a51a-03ac70d9659d">
+<img width="330" alt="PA4 PROBLEM1 PART1" src="https://github.com/user-attachments/assets/01986c9e-2bf0-493d-a51a-03ac70d9659d">
 
 #### The second part limits the dataframe to rows and columns which have students who have their hometown in Mindanao, gender female, and average score of >= 55
 ## Code
@@ -51,7 +51,7 @@ Mindy = ece[(ece['Hometown']=='Mindanao') & (ece['Gender']=='Female') & (ece['Av
 Mindy[['Name', 'Track', 'Electronics', 'Average']]
 ```
 ## Output
-<img width="300" alt="PA4 PROBLEM1 PART2" src="https://github.com/user-attachments/assets/99403781-24f4-4ec4-8956-0fb98a32c2af">
+<img width="330" alt="PA4 PROBLEM1 PART2" src="https://github.com/user-attachments/assets/99403781-24f4-4ec4-8956-0fb98a32c2af">
 
 # Problem 2
 #### For problem 2, using the Matplot library, display in bar graphs how the different features contribute to the students average score.
